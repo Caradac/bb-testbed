@@ -1,0 +1,17 @@
+// character base information
+{
+    "name": "Testy McTestFace",
+    "short-name": "Test",
+    "race-table": "human",
+    "class-table": "scout",
+    "primary class": "scout",
+    "secondary class": "",
+    "item7": "value7",
+    "item8": "value8",
+    "item9": "value9",
+    "item10": "value10",
+    "item11": ["value1", "value2"],
+    "item12": []
+}
+    
+  

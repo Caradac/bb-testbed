@@ -1,0 +1,11 @@
+{
+    {
+        "name": "life",
+        "cost": 12
+    },
+
+    {
+        "name": "power",
+        "cost": 6
+    }
+}

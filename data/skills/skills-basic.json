@@ -1,0 +1,47 @@
+{
+    {
+        "name": "life",
+        "category": "Basic",
+        "display-name": "Life Points",
+        "description": "A characters' total amount of life points indicates their stamina and natural hardiness. All characters begin with 42 life points and can increase this total by spending character points on the “additional life” skill. All damage received comes off the players Life.",
+        "unit": 3,
+        "base-purchase-limit": 53,
+        "status-cost": 0,
+        "pre-requisites": ""
+    },
+
+    {
+        "name": "power",
+        "category": "Basic",
+        "display-name": "Power",
+        "description": "All characters begin with 5 points of Power. Power represents a character's spiritual strength and how much power they can call on from the Spheres to cast invocations. Power is also expended through uses of the First Aid Skill.  Should a character ever be reduced to 0 Power then they will be knocked unconscious for 15-minutes (regaining 1 point of Power as they awaken). Power can be rested back at a rate of 1 point of power for every 15-minutes of uninterrupted rest at the player referee's discretion.",
+        "unit": 1,
+        "base-purchase-limit": 196,
+        "status-cost": 0,
+        "pre-requisites": ""
+    },
+
+    {
+        "name": "connect-sphere-1",
+        "category": "Basic",
+        "display-name": "Connection with 1st Sphere",
+        "description": "This skill allows you to develop a spiritual connection with a Sphere of Power. A connection with a Sphere is required to learn casting ranks in that Sphere and to benefit from certain invocations (Good Spirit will only affect someone who has a connection to the Good Sphere for example). The Spheres do have an influence upon the character that should be role-played accordingly.  This means a character with a connection to the Good Sphere should be noticeably "good". The extent to which your character demonstrates this is entirely up to you.",
+        "unit": 1,
+        "base-purchase-limit": 1,
+        "status-cost": 0,
+        "pre-requisites": ""
+
+    },
+
+    {
+        "name": "cast-sphere1-ranks-1-5",
+        "category": "Basic",
+        "display-name": "Cast 1st Sphere Ranks 1 to 5",
+        "description": "This skill grants the character the ability to cast lay invocations from their Primary Sphere, with which they must already have formed a connection (see Connection with Primary Sphere). The character is taught all of the common invocations listed for that Sphere which can be found in the lay power section under the low-level rules. Only invocations which are listed there are learnt, additional invocations must be obtained through the use of the Learn Additional Invocations skills. Each casting rank must be purchased separately using character points.",
+        "unit": 1,
+        "base-purchase-limit": 5,
+        "status-cost": 0,
+        "pre-requisites": "connect-sphere-1"
+
+    }
+}
